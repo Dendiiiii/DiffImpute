@@ -1,0 +1,352 @@
+[2023-09-29 00:07:22,468] ml_logger {DiffImpute.py:59} INFO - ### Init. Logger ml_logger ###
+[2023-09-29 00:07:24,061] ml_logger {DiffImpute.py:378} INFO - ==================================================U-Net Model Training==================================================
+[2023-09-29 00:07:25,967] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4632
+[2023-09-29 00:07:34,392] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/U-Net_epoch1.pt
+[2023-09-29 00:07:34,392] ml_logger {DiffImpute.py:372} INFO - ==================================================MLP Model Training==================================================
+[2023-09-29 00:07:34,419] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4178
+[2023-09-29 00:07:35,570] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/MLP_epoch1.pt
+[2023-09-29 00:07:35,570] ml_logger {DiffImpute.py:374} INFO - ==================================================ResNet Model Training==================================================
+[2023-09-29 00:07:35,598] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4988
+[2023-09-29 00:07:37,303] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/ResNet_epoch1.pt
+[2023-09-29 00:07:37,303] ml_logger {DiffImpute.py:376} INFO - ==================================================Transformer Model Training==================================================
+[2023-09-29 00:07:37,350] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4333
+[2023-09-29 00:07:42,066] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/FT_epoch1.pt
+[2023-09-29 00:07:42,121] ml_logger {DiffImpute.py:466} INFO - Test score before training: 5.0919
+[2023-09-29 00:07:42,151] ml_logger {DiffImpute.py:481} INFO - (epoch) 1 (batch) 0 (loss) 1.1625
+[2023-09-29 00:07:43,023] ml_logger {DiffImpute.py:481} INFO - (epoch) 1 (batch) 64 (loss) 0.0531
+[2023-09-29 00:07:43,057] ml_logger {DiffImpute.py:484} INFO - Epoch | Test score: 1.0198
+[2023-09-29 00:07:43,099] ml_logger {DiffImpute.py:498} INFO - Model saved at CA/sampling_results/downstream_model_epoch1.pt
+[2023-09-29 00:07:43,099] ml_logger {DiffImpute.py:501} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:07:43,099] ml_logger {DiffImpute.py:538} INFO - ==================================================U-Net Model Evaluation==================================================
+[2023-09-29 00:07:52,706] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.3615 at 1 column MAR:
+[2023-09-29 00:07:52,707] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:07:52,707] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0025 at 1 column MAR:
+[2023-09-29 00:07:52,707] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:07:52,707] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0438 at 1 column MAR:
+[2023-09-29 00:07:52,707] ml_logger {DiffImpute.py:532} INFO - ==================================================MLP Model Evaluation==================================================
+[2023-09-29 00:07:54,441] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.3614 at 1 column MAR:
+[2023-09-29 00:07:54,441] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:07:54,441] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0010 at 1 column MAR:
+[2023-09-29 00:07:54,442] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:07:54,442] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0437 at 1 column MAR:
+[2023-09-29 00:07:54,442] ml_logger {DiffImpute.py:534} INFO - ==================================================ResNet Model Evaluation==================================================
+[2023-09-29 00:07:56,673] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.3481 at 1 column MAR:
+[2023-09-29 00:07:56,674] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:07:56,674] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0024 at 1 column MAR:
+[2023-09-29 00:07:56,674] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:07:56,674] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0437 at 1 column MAR:
+[2023-09-29 00:07:56,674] ml_logger {DiffImpute.py:536} INFO - ==================================================Transformer Model Evaluation==================================================
+[2023-09-29 00:08:01,471] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.3289 at 1 column MAR:
+[2023-09-29 00:08:01,471] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:01,471] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0074 at 1 column MAR:
+[2023-09-29 00:08:01,471] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:01,472] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0434 at 1 column MAR:
+[2023-09-29 00:08:17,425] ml_logger {DiffImpute.py:59} INFO - ### Init. Logger ml_logger ###
+[2023-09-29 00:08:19,009] ml_logger {DiffImpute.py:378} INFO - ==================================================U-Net Model Training==================================================
+[2023-09-29 00:08:20,897] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4632
+[2023-09-29 00:08:29,344] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/U-Net_epoch1.pt
+[2023-09-29 00:08:29,344] ml_logger {DiffImpute.py:372} INFO - ==================================================MLP Model Training==================================================
+[2023-09-29 00:08:29,372] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4178
+[2023-09-29 00:08:30,573] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/MLP_epoch1.pt
+[2023-09-29 00:08:30,573] ml_logger {DiffImpute.py:374} INFO - ==================================================ResNet Model Training==================================================
+[2023-09-29 00:08:30,602] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4988
+[2023-09-29 00:08:32,337] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/ResNet_epoch1.pt
+[2023-09-29 00:08:32,337] ml_logger {DiffImpute.py:376} INFO - ==================================================Transformer Model Training==================================================
+[2023-09-29 00:08:32,386] ml_logger {DiffImpute.py:392} INFO - (epoch) 1 (batch) 0 (loss) 0.4333
+[2023-09-29 00:08:36,945] ml_logger {DiffImpute.py:406} INFO - Model saved at CA/sampling_results/FT_epoch1.pt
+[2023-09-29 00:08:36,999] ml_logger {DiffImpute.py:466} INFO - Test score before training: 5.0919
+[2023-09-29 00:08:37,027] ml_logger {DiffImpute.py:481} INFO - (epoch) 1 (batch) 0 (loss) 1.1625
+[2023-09-29 00:08:37,891] ml_logger {DiffImpute.py:481} INFO - (epoch) 1 (batch) 64 (loss) 0.0531
+[2023-09-29 00:08:37,924] ml_logger {DiffImpute.py:484} INFO - Epoch | Test score: 1.0198
+[2023-09-29 00:08:37,967] ml_logger {DiffImpute.py:498} INFO - Model saved at CA/sampling_results/downstream_model_epoch1.pt
+[2023-09-29 00:08:37,967] ml_logger {DiffImpute.py:501} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:08:37,967] ml_logger {DiffImpute.py:538} INFO - ==================================================U-Net Model Evaluation==================================================
+[2023-09-29 00:08:47,585] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.2410 at 2 column MAR:
+[2023-09-29 00:08:47,585] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:47,585] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0017 at 2 column MAR:
+[2023-09-29 00:08:47,586] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:47,586] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0548 at 2 column MAR:
+[2023-09-29 00:08:47,586] ml_logger {DiffImpute.py:532} INFO - ==================================================MLP Model Evaluation==================================================
+[2023-09-29 00:08:49,374] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.2392 at 2 column MAR:
+[2023-09-29 00:08:49,374] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:49,374] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0052 at 2 column MAR:
+[2023-09-29 00:08:49,374] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:49,374] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0548 at 2 column MAR:
+[2023-09-29 00:08:49,375] ml_logger {DiffImpute.py:534} INFO - ==================================================ResNet Model Evaluation==================================================
+[2023-09-29 00:08:51,633] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.2269 at 2 column MAR:
+[2023-09-29 00:08:51,633] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:51,634] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0023 at 2 column MAR:
+[2023-09-29 00:08:51,634] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:51,634] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0544 at 2 column MAR:
+[2023-09-29 00:08:51,634] ml_logger {DiffImpute.py:536} INFO - ==================================================Transformer Model Evaluation==================================================
+[2023-09-29 00:08:56,376] ml_logger {DiffImpute.py:634} INFO - Repaint Imputation Loss:0.2157 at 2 column MAR:
+[2023-09-29 00:08:56,376] ml_logger {DiffImpute.py:635} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:56,377] ml_logger {DiffImpute.py:636} INFO - Repaint Imputation Pearson Correlation:0.0116 at 2 column MAR:
+[2023-09-29 00:08:56,377] ml_logger {DiffImpute.py:638} INFO - ------------------------------------------------------------------------------------------------------------------------
+[2023-09-29 00:08:56,377] ml_logger {DiffImpute.py:639} INFO - Repaint Imputation Accuracy Score:1.0543 at 2 column MAR:
+[2023-09-29 00:16:36,566] ml_logger {DiffImpute.py:43} INFO - ### Init. Logger ml_logger ###
+[2023-09-29 00:16:38,186] ml_logger {DiffImpute.py:418} INFO - ==================================================U-Net Model Training==================================================
+[2023-09-29 00:16:40,029] ml_logger {DiffImpute.py:434} INFO - (epoch) 1 (batch) 0 (loss) 0.4632
+[2023-09-29 00:16:48,823] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch1.pt
+[2023-09-29 00:16:48,877] ml_logger {DiffImpute.py:434} INFO - (epoch) 2 (batch) 0 (loss) 0.3665
+[2023-09-29 00:16:57,500] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch2.pt
+[2023-09-29 00:16:57,553] ml_logger {DiffImpute.py:434} INFO - (epoch) 3 (batch) 0 (loss) 0.2512
+[2023-09-29 00:17:06,453] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch3.pt
+[2023-09-29 00:17:06,508] ml_logger {DiffImpute.py:434} INFO - (epoch) 4 (batch) 0 (loss) 0.1071
+[2023-09-29 00:17:15,148] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch4.pt
+[2023-09-29 00:17:15,201] ml_logger {DiffImpute.py:434} INFO - (epoch) 5 (batch) 0 (loss) 0.3051
+[2023-09-29 00:17:23,833] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch5.pt
+[2023-09-29 00:17:23,886] ml_logger {DiffImpute.py:434} INFO - (epoch) 6 (batch) 0 (loss) 0.2370
+[2023-09-29 00:17:32,574] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch6.pt
+[2023-09-29 00:17:32,628] ml_logger {DiffImpute.py:434} INFO - (epoch) 7 (batch) 0 (loss) 0.1923
+[2023-09-29 00:17:41,337] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch7.pt
+[2023-09-29 00:17:41,391] ml_logger {DiffImpute.py:434} INFO - (epoch) 8 (batch) 0 (loss) 0.1095
+[2023-09-29 00:17:50,082] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch8.pt
+[2023-09-29 00:17:50,135] ml_logger {DiffImpute.py:434} INFO - (epoch) 9 (batch) 0 (loss) 0.0904
+[2023-09-29 00:17:58,797] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch9.pt
+[2023-09-29 00:17:58,850] ml_logger {DiffImpute.py:434} INFO - (epoch) 10 (batch) 0 (loss) 0.0621
+[2023-09-29 00:18:07,530] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch10.pt
+[2023-09-29 00:18:07,583] ml_logger {DiffImpute.py:434} INFO - (epoch) 11 (batch) 0 (loss) 0.0647
+[2023-09-29 00:18:16,194] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch11.pt
+[2023-09-29 00:18:16,247] ml_logger {DiffImpute.py:434} INFO - (epoch) 12 (batch) 0 (loss) 0.0462
+[2023-09-29 00:18:24,878] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch12.pt
+[2023-09-29 00:18:24,933] ml_logger {DiffImpute.py:434} INFO - (epoch) 13 (batch) 0 (loss) 0.0553
+[2023-09-29 00:18:33,541] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch13.pt
+[2023-09-29 00:18:33,594] ml_logger {DiffImpute.py:434} INFO - (epoch) 14 (batch) 0 (loss) 0.1714
+[2023-09-29 00:18:42,205] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch14.pt
+[2023-09-29 00:18:42,258] ml_logger {DiffImpute.py:434} INFO - (epoch) 15 (batch) 0 (loss) 566.9762
+[2023-09-29 00:18:50,849] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch15.pt
+[2023-09-29 00:18:50,902] ml_logger {DiffImpute.py:434} INFO - (epoch) 16 (batch) 0 (loss) 387.9251
+[2023-09-29 00:18:59,526] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch16.pt
+[2023-09-29 00:18:59,579] ml_logger {DiffImpute.py:434} INFO - (epoch) 17 (batch) 0 (loss) 124.7936
+[2023-09-29 00:19:08,178] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch17.pt
+[2023-09-29 00:19:08,231] ml_logger {DiffImpute.py:434} INFO - (epoch) 18 (batch) 0 (loss) 110.0255
+[2023-09-29 00:19:16,833] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch18.pt
+[2023-09-29 00:19:16,886] ml_logger {DiffImpute.py:434} INFO - (epoch) 19 (batch) 0 (loss) 76.8571
+[2023-09-29 00:19:25,528] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch19.pt
+[2023-09-29 00:19:25,582] ml_logger {DiffImpute.py:434} INFO - (epoch) 20 (batch) 0 (loss) 11.9825
+[2023-09-29 00:19:34,213] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/U-Net_epoch20.pt
+[2023-09-29 00:19:34,213] ml_logger {DiffImpute.py:412} INFO - ==================================================MLP Model Training==================================================
+[2023-09-29 00:19:34,239] ml_logger {DiffImpute.py:434} INFO - (epoch) 1 (batch) 0 (loss) 0.4480
+[2023-09-29 00:19:35,417] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch1.pt
+[2023-09-29 00:19:35,443] ml_logger {DiffImpute.py:434} INFO - (epoch) 2 (batch) 0 (loss) 0.3018
+[2023-09-29 00:19:36,640] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch2.pt
+[2023-09-29 00:19:36,665] ml_logger {DiffImpute.py:434} INFO - (epoch) 3 (batch) 0 (loss) 0.2936
+[2023-09-29 00:19:37,900] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch3.pt
+[2023-09-29 00:19:37,926] ml_logger {DiffImpute.py:434} INFO - (epoch) 4 (batch) 0 (loss) 0.2210
+[2023-09-29 00:19:39,176] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch4.pt
+[2023-09-29 00:19:39,203] ml_logger {DiffImpute.py:434} INFO - (epoch) 5 (batch) 0 (loss) 0.2466
+[2023-09-29 00:19:40,497] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch5.pt
+[2023-09-29 00:19:40,525] ml_logger {DiffImpute.py:434} INFO - (epoch) 6 (batch) 0 (loss) 0.2167
+[2023-09-29 00:19:41,806] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch6.pt
+[2023-09-29 00:19:41,832] ml_logger {DiffImpute.py:434} INFO - (epoch) 7 (batch) 0 (loss) 0.2120
+[2023-09-29 00:19:43,148] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch7.pt
+[2023-09-29 00:19:43,175] ml_logger {DiffImpute.py:434} INFO - (epoch) 8 (batch) 0 (loss) 0.2133
+[2023-09-29 00:19:44,467] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch8.pt
+[2023-09-29 00:19:44,493] ml_logger {DiffImpute.py:434} INFO - (epoch) 9 (batch) 0 (loss) 0.2257
+[2023-09-29 00:19:45,770] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch9.pt
+[2023-09-29 00:19:45,795] ml_logger {DiffImpute.py:434} INFO - (epoch) 10 (batch) 0 (loss) 0.2081
+[2023-09-29 00:19:47,058] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch10.pt
+[2023-09-29 00:19:47,084] ml_logger {DiffImpute.py:434} INFO - (epoch) 11 (batch) 0 (loss) 0.1583
+[2023-09-29 00:19:48,366] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch11.pt
+[2023-09-29 00:19:48,391] ml_logger {DiffImpute.py:434} INFO - (epoch) 12 (batch) 0 (loss) 0.1879
+[2023-09-29 00:19:49,673] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch12.pt
+[2023-09-29 00:19:49,699] ml_logger {DiffImpute.py:434} INFO - (epoch) 13 (batch) 0 (loss) 0.2093
+[2023-09-29 00:19:50,975] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch13.pt
+[2023-09-29 00:19:51,002] ml_logger {DiffImpute.py:434} INFO - (epoch) 14 (batch) 0 (loss) 0.1615
+[2023-09-29 00:19:52,302] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch14.pt
+[2023-09-29 00:19:52,328] ml_logger {DiffImpute.py:434} INFO - (epoch) 15 (batch) 0 (loss) 0.2122
+[2023-09-29 00:19:53,589] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch15.pt
+[2023-09-29 00:19:53,614] ml_logger {DiffImpute.py:434} INFO - (epoch) 16 (batch) 0 (loss) 0.2045
+[2023-09-29 00:19:54,889] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch16.pt
+[2023-09-29 00:19:54,914] ml_logger {DiffImpute.py:434} INFO - (epoch) 17 (batch) 0 (loss) 0.1976
+[2023-09-29 00:19:56,203] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch17.pt
+[2023-09-29 00:19:56,228] ml_logger {DiffImpute.py:434} INFO - (epoch) 18 (batch) 0 (loss) 0.1825
+[2023-09-29 00:19:57,501] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch18.pt
+[2023-09-29 00:19:57,527] ml_logger {DiffImpute.py:434} INFO - (epoch) 19 (batch) 0 (loss) 0.1644
+[2023-09-29 00:19:58,828] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch19.pt
+[2023-09-29 00:19:58,855] ml_logger {DiffImpute.py:434} INFO - (epoch) 20 (batch) 0 (loss) 0.1709
+[2023-09-29 00:20:00,137] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/MLP_epoch20.pt
+[2023-09-29 00:20:00,137] ml_logger {DiffImpute.py:414} INFO - ==================================================ResNet Model Training==================================================
+[2023-09-29 00:20:00,165] ml_logger {DiffImpute.py:434} INFO - (epoch) 1 (batch) 0 (loss) 0.5103
+[2023-09-29 00:20:01,954] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch1.pt
+[2023-09-29 00:20:01,981] ml_logger {DiffImpute.py:434} INFO - (epoch) 2 (batch) 0 (loss) 0.0968
+[2023-09-29 00:20:03,762] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch2.pt
+[2023-09-29 00:20:03,790] ml_logger {DiffImpute.py:434} INFO - (epoch) 3 (batch) 0 (loss) 0.1197
+[2023-09-29 00:20:05,564] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch3.pt
+[2023-09-29 00:20:05,591] ml_logger {DiffImpute.py:434} INFO - (epoch) 4 (batch) 0 (loss) 0.0718
+[2023-09-29 00:20:07,381] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch4.pt
+[2023-09-29 00:20:07,408] ml_logger {DiffImpute.py:434} INFO - (epoch) 5 (batch) 0 (loss) 0.0799
+[2023-09-29 00:20:09,183] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch5.pt
+[2023-09-29 00:20:09,211] ml_logger {DiffImpute.py:434} INFO - (epoch) 6 (batch) 0 (loss) 0.0855
+[2023-09-29 00:20:10,987] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch6.pt
+[2023-09-29 00:20:11,015] ml_logger {DiffImpute.py:434} INFO - (epoch) 7 (batch) 0 (loss) 0.0867
+[2023-09-29 00:20:12,832] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch7.pt
+[2023-09-29 00:20:12,862] ml_logger {DiffImpute.py:434} INFO - (epoch) 8 (batch) 0 (loss) 0.0834
+[2023-09-29 00:20:14,661] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch8.pt
+[2023-09-29 00:20:14,690] ml_logger {DiffImpute.py:434} INFO - (epoch) 9 (batch) 0 (loss) 0.0924
+[2023-09-29 00:20:16,487] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch9.pt
+[2023-09-29 00:20:16,515] ml_logger {DiffImpute.py:434} INFO - (epoch) 10 (batch) 0 (loss) 0.0581
+[2023-09-29 00:20:18,299] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch10.pt
+[2023-09-29 00:20:18,327] ml_logger {DiffImpute.py:434} INFO - (epoch) 11 (batch) 0 (loss) 0.0697
+[2023-09-29 00:20:20,096] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch11.pt
+[2023-09-29 00:20:20,124] ml_logger {DiffImpute.py:434} INFO - (epoch) 12 (batch) 0 (loss) 0.0719
+[2023-09-29 00:20:21,903] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch12.pt
+[2023-09-29 00:20:21,930] ml_logger {DiffImpute.py:434} INFO - (epoch) 13 (batch) 0 (loss) 0.0630
+[2023-09-29 00:20:23,721] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch13.pt
+[2023-09-29 00:20:23,748] ml_logger {DiffImpute.py:434} INFO - (epoch) 14 (batch) 0 (loss) 0.0830
+[2023-09-29 00:20:25,521] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch14.pt
+[2023-09-29 00:20:25,548] ml_logger {DiffImpute.py:434} INFO - (epoch) 15 (batch) 0 (loss) 0.0975
+[2023-09-29 00:20:27,344] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch15.pt
+[2023-09-29 00:20:27,373] ml_logger {DiffImpute.py:434} INFO - (epoch) 16 (batch) 0 (loss) 0.0800
+[2023-09-29 00:20:29,159] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch16.pt
+[2023-09-29 00:20:29,187] ml_logger {DiffImpute.py:434} INFO - (epoch) 17 (batch) 0 (loss) 0.0726
+[2023-09-29 00:20:31,042] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch17.pt
+[2023-09-29 00:20:31,070] ml_logger {DiffImpute.py:434} INFO - (epoch) 18 (batch) 0 (loss) 0.0636
+[2023-09-29 00:20:32,862] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch18.pt
+[2023-09-29 00:20:32,891] ml_logger {DiffImpute.py:434} INFO - (epoch) 19 (batch) 0 (loss) 0.0661
+[2023-09-29 00:20:34,659] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch19.pt
+[2023-09-29 00:20:34,687] ml_logger {DiffImpute.py:434} INFO - (epoch) 20 (batch) 0 (loss) 0.0784
+[2023-09-29 00:20:36,471] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/ResNet_epoch20.pt
+[2023-09-29 00:20:36,471] ml_logger {DiffImpute.py:416} INFO - ==================================================Transformer Model Training==================================================
+[2023-09-29 00:20:36,518] ml_logger {DiffImpute.py:434} INFO - (epoch) 1 (batch) 0 (loss) 0.4625
+[2023-09-29 00:20:41,307] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch1.pt
+[2023-09-29 00:20:41,346] ml_logger {DiffImpute.py:434} INFO - (epoch) 2 (batch) 0 (loss) 0.0698
+[2023-09-29 00:20:46,111] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch2.pt
+[2023-09-29 00:20:46,149] ml_logger {DiffImpute.py:434} INFO - (epoch) 3 (batch) 0 (loss) 0.0433
+[2023-09-29 00:20:50,925] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch3.pt
+[2023-09-29 00:20:50,964] ml_logger {DiffImpute.py:434} INFO - (epoch) 4 (batch) 0 (loss) 0.0503
+[2023-09-29 00:20:55,720] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch4.pt
+[2023-09-29 00:20:55,759] ml_logger {DiffImpute.py:434} INFO - (epoch) 5 (batch) 0 (loss) 0.0584
+[2023-09-29 00:21:00,548] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch5.pt
+[2023-09-29 00:21:00,588] ml_logger {DiffImpute.py:434} INFO - (epoch) 6 (batch) 0 (loss) 0.0540
+[2023-09-29 00:21:05,391] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch6.pt
+[2023-09-29 00:21:05,430] ml_logger {DiffImpute.py:434} INFO - (epoch) 7 (batch) 0 (loss) 0.0517
+[2023-09-29 00:21:10,158] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch7.pt
+[2023-09-29 00:21:10,197] ml_logger {DiffImpute.py:434} INFO - (epoch) 8 (batch) 0 (loss) 0.0356
+[2023-09-29 00:21:14,926] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch8.pt
+[2023-09-29 00:21:14,965] ml_logger {DiffImpute.py:434} INFO - (epoch) 9 (batch) 0 (loss) 0.0417
+[2023-09-29 00:21:19,814] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch9.pt
+[2023-09-29 00:21:19,853] ml_logger {DiffImpute.py:434} INFO - (epoch) 10 (batch) 0 (loss) 0.0411
+[2023-09-29 00:21:24,609] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch10.pt
+[2023-09-29 00:21:24,648] ml_logger {DiffImpute.py:434} INFO - (epoch) 11 (batch) 0 (loss) 0.0455
+[2023-09-29 00:21:29,471] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch11.pt
+[2023-09-29 00:21:29,511] ml_logger {DiffImpute.py:434} INFO - (epoch) 12 (batch) 0 (loss) 0.0321
+[2023-09-29 00:21:34,315] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch12.pt
+[2023-09-29 00:21:34,355] ml_logger {DiffImpute.py:434} INFO - (epoch) 13 (batch) 0 (loss) 0.0416
+[2023-09-29 00:21:39,147] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch13.pt
+[2023-09-29 00:21:39,186] ml_logger {DiffImpute.py:434} INFO - (epoch) 14 (batch) 0 (loss) 0.0587
+[2023-09-29 00:21:43,917] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch14.pt
+[2023-09-29 00:21:43,957] ml_logger {DiffImpute.py:434} INFO - (epoch) 15 (batch) 0 (loss) 0.0466
+[2023-09-29 00:21:48,743] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch15.pt
+[2023-09-29 00:21:48,782] ml_logger {DiffImpute.py:434} INFO - (epoch) 16 (batch) 0 (loss) 0.0408
+[2023-09-29 00:21:53,583] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch16.pt
+[2023-09-29 00:21:53,622] ml_logger {DiffImpute.py:434} INFO - (epoch) 17 (batch) 0 (loss) 0.0379
+[2023-09-29 00:21:58,353] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch17.pt
+[2023-09-29 00:21:58,392] ml_logger {DiffImpute.py:434} INFO - (epoch) 18 (batch) 0 (loss) 0.0405
+[2023-09-29 00:22:03,133] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch18.pt
+[2023-09-29 00:22:03,173] ml_logger {DiffImpute.py:434} INFO - (epoch) 19 (batch) 0 (loss) 0.0442
+[2023-09-29 00:22:08,012] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch19.pt
+[2023-09-29 00:22:08,050] ml_logger {DiffImpute.py:434} INFO - (epoch) 20 (batch) 0 (loss) 0.0446
+[2023-09-29 00:22:12,782] ml_logger {DiffImpute.py:450} INFO - Model saved at CA/sampling_results/FT_epoch20.pt
+[2023-09-29 00:22:12,840] ml_logger {DiffImpute.py:516} INFO - Test score before training: 2.6745
+[2023-09-29 00:22:12,870] ml_logger {DiffImpute.py:533} INFO - (epoch) 1 (batch) 0 (loss) 0.3034
+[2023-09-29 00:22:13,766] ml_logger {DiffImpute.py:533} INFO - (epoch) 1 (batch) 64 (loss) 0.0328
+[2023-09-29 00:22:13,800] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.8090
+[2023-09-29 00:22:13,841] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch1.pt
+[2023-09-29 00:22:13,841] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:13,867] ml_logger {DiffImpute.py:533} INFO - (epoch) 2 (batch) 0 (loss) 0.0355
+[2023-09-29 00:22:14,755] ml_logger {DiffImpute.py:533} INFO - (epoch) 2 (batch) 64 (loss) 0.0284
+[2023-09-29 00:22:14,789] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7739
+[2023-09-29 00:22:14,829] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch2.pt
+[2023-09-29 00:22:14,830] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:14,856] ml_logger {DiffImpute.py:533} INFO - (epoch) 3 (batch) 0 (loss) 0.0319
+[2023-09-29 00:22:15,742] ml_logger {DiffImpute.py:533} INFO - (epoch) 3 (batch) 64 (loss) 0.0263
+[2023-09-29 00:22:15,774] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7585
+[2023-09-29 00:22:15,816] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch3.pt
+[2023-09-29 00:22:15,816] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:15,842] ml_logger {DiffImpute.py:533} INFO - (epoch) 4 (batch) 0 (loss) 0.0290
+[2023-09-29 00:22:16,728] ml_logger {DiffImpute.py:533} INFO - (epoch) 4 (batch) 64 (loss) 0.0252
+[2023-09-29 00:22:16,762] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7504
+[2023-09-29 00:22:16,802] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch4.pt
+[2023-09-29 00:22:16,803] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:16,829] ml_logger {DiffImpute.py:533} INFO - (epoch) 5 (batch) 0 (loss) 0.0265
+[2023-09-29 00:22:17,721] ml_logger {DiffImpute.py:533} INFO - (epoch) 5 (batch) 64 (loss) 0.0260
+[2023-09-29 00:22:17,755] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7382
+[2023-09-29 00:22:17,796] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch5.pt
+[2023-09-29 00:22:17,796] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:17,822] ml_logger {DiffImpute.py:533} INFO - (epoch) 6 (batch) 0 (loss) 0.0283
+[2023-09-29 00:22:18,712] ml_logger {DiffImpute.py:533} INFO - (epoch) 6 (batch) 64 (loss) 0.0241
+[2023-09-29 00:22:18,746] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7286
+[2023-09-29 00:22:18,786] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch6.pt
+[2023-09-29 00:22:18,786] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:18,812] ml_logger {DiffImpute.py:533} INFO - (epoch) 7 (batch) 0 (loss) 0.0279
+[2023-09-29 00:22:19,706] ml_logger {DiffImpute.py:533} INFO - (epoch) 7 (batch) 64 (loss) 0.0233
+[2023-09-29 00:22:19,739] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7159
+[2023-09-29 00:22:19,780] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch7.pt
+[2023-09-29 00:22:19,780] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:19,807] ml_logger {DiffImpute.py:533} INFO - (epoch) 8 (batch) 0 (loss) 0.0273
+[2023-09-29 00:22:20,700] ml_logger {DiffImpute.py:533} INFO - (epoch) 8 (batch) 64 (loss) 0.0245
+[2023-09-29 00:22:20,734] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7222
+[2023-09-29 00:22:20,775] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch8.pt
+[2023-09-29 00:22:20,802] ml_logger {DiffImpute.py:533} INFO - (epoch) 9 (batch) 0 (loss) 0.0262
+[2023-09-29 00:22:21,694] ml_logger {DiffImpute.py:533} INFO - (epoch) 9 (batch) 64 (loss) 0.0238
+[2023-09-29 00:22:21,726] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.7097
+[2023-09-29 00:22:21,767] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch9.pt
+[2023-09-29 00:22:21,768] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:21,794] ml_logger {DiffImpute.py:533} INFO - (epoch) 10 (batch) 0 (loss) 0.0261
+[2023-09-29 00:22:22,704] ml_logger {DiffImpute.py:533} INFO - (epoch) 10 (batch) 64 (loss) 0.0208
+[2023-09-29 00:22:22,737] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6995
+[2023-09-29 00:22:22,779] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch10.pt
+[2023-09-29 00:22:22,779] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:22,806] ml_logger {DiffImpute.py:533} INFO - (epoch) 11 (batch) 0 (loss) 0.0243
+[2023-09-29 00:22:23,706] ml_logger {DiffImpute.py:533} INFO - (epoch) 11 (batch) 64 (loss) 0.0222
+[2023-09-29 00:22:23,739] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6957
+[2023-09-29 00:22:23,780] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch11.pt
+[2023-09-29 00:22:23,781] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:23,807] ml_logger {DiffImpute.py:533} INFO - (epoch) 12 (batch) 0 (loss) 0.0250
+[2023-09-29 00:22:24,695] ml_logger {DiffImpute.py:533} INFO - (epoch) 12 (batch) 64 (loss) 0.0216
+[2023-09-29 00:22:24,728] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6882
+[2023-09-29 00:22:24,769] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch12.pt
+[2023-09-29 00:22:24,769] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:24,795] ml_logger {DiffImpute.py:533} INFO - (epoch) 13 (batch) 0 (loss) 0.0245
+[2023-09-29 00:22:25,684] ml_logger {DiffImpute.py:533} INFO - (epoch) 13 (batch) 64 (loss) 0.0208
+[2023-09-29 00:22:25,718] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6851
+[2023-09-29 00:22:25,758] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch13.pt
+[2023-09-29 00:22:25,758] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:25,784] ml_logger {DiffImpute.py:533} INFO - (epoch) 14 (batch) 0 (loss) 0.0236
+[2023-09-29 00:22:26,669] ml_logger {DiffImpute.py:533} INFO - (epoch) 14 (batch) 64 (loss) 0.0207
+[2023-09-29 00:22:26,703] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6797
+[2023-09-29 00:22:26,743] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch14.pt
+[2023-09-29 00:22:26,744] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:26,770] ml_logger {DiffImpute.py:533} INFO - (epoch) 15 (batch) 0 (loss) 0.0234
+[2023-09-29 00:22:27,664] ml_logger {DiffImpute.py:533} INFO - (epoch) 15 (batch) 64 (loss) 0.0201
+[2023-09-29 00:22:27,697] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6773
+[2023-09-29 00:22:27,742] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch15.pt
+[2023-09-29 00:22:27,743] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:27,769] ml_logger {DiffImpute.py:533} INFO - (epoch) 16 (batch) 0 (loss) 0.0222
+[2023-09-29 00:22:28,655] ml_logger {DiffImpute.py:533} INFO - (epoch) 16 (batch) 64 (loss) 0.0206
+[2023-09-29 00:22:28,689] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6739
+[2023-09-29 00:22:28,731] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch16.pt
+[2023-09-29 00:22:28,731] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:28,757] ml_logger {DiffImpute.py:533} INFO - (epoch) 17 (batch) 0 (loss) 0.0230
+[2023-09-29 00:22:29,643] ml_logger {DiffImpute.py:533} INFO - (epoch) 17 (batch) 64 (loss) 0.0208
+[2023-09-29 00:22:29,678] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6742
+[2023-09-29 00:22:29,719] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch17.pt
+[2023-09-29 00:22:29,745] ml_logger {DiffImpute.py:533} INFO - (epoch) 18 (batch) 0 (loss) 0.0222
+[2023-09-29 00:22:30,632] ml_logger {DiffImpute.py:533} INFO - (epoch) 18 (batch) 64 (loss) 0.0199
+[2023-09-29 00:22:30,665] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6770
+[2023-09-29 00:22:30,706] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch18.pt
+[2023-09-29 00:22:30,732] ml_logger {DiffImpute.py:533} INFO - (epoch) 19 (batch) 0 (loss) 0.0240
+[2023-09-29 00:22:31,643] ml_logger {DiffImpute.py:533} INFO - (epoch) 19 (batch) 64 (loss) 0.0199
+[2023-09-29 00:22:31,678] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6671
+[2023-09-29 00:22:31,718] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch19.pt
+[2023-09-29 00:22:31,718] ml_logger {DiffImpute.py:555} INFO -  <<< BEST TEST EPOCH
+[2023-09-29 00:22:31,744] ml_logger {DiffImpute.py:533} INFO - (epoch) 20 (batch) 0 (loss) 0.0231
+[2023-09-29 00:22:32,639] ml_logger {DiffImpute.py:533} INFO - (epoch) 20 (batch) 64 (loss) 0.0190
+[2023-09-29 00:22:32,674] ml_logger {DiffImpute.py:538} INFO - Epoch | Test score: 0.6687
+[2023-09-29 00:22:32,715] ml_logger {DiffImpute.py:552} INFO - Model saved at CA/sampling_results/downstream_model_epoch20.pt
+[2023-09-29 00:22:32,715] ml_logger {DiffImpute.py:592} INFO - ==================================================U-Net Model Evaluation==================================================
+[2023-09-29 00:58:37,712] ml_logger {DiffImpute.py:42} INFO - ### Init. Logger ml_logger ###
+[2023-09-29 00:58:39,366] ml_logger {DiffImpute.py:417} INFO - ==================================================U-Net Model Training==================================================
+[2023-09-29 00:58:41,354] ml_logger {DiffImpute.py:433} INFO - (epoch) 1 (batch) 0 (loss) 0.4632
